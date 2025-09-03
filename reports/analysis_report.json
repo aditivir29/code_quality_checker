@@ -1,0 +1,52 @@
+{
+    "pep8": {
+        "violations": 8,
+        "details": [
+            "1       E111 indentation is not a multiple of 4",
+            "1       E113 unexpected indentation",
+            "1       E203 whitespace before ','",
+            "1       E231 missing whitespace after ','",
+            "4       E302 expected 2 blank lines, found 1"
+        ]
+    },
+    "syntax": {
+        "errors": 1,
+        "details": [
+            {
+                "line": 12,
+                "msg": "expected ':'",
+                "hint": "Check function/class definitions and missing colons/indentation."
+            }
+        ]
+    },
+    "score": 7.2,
+    "suggestions": [
+        "Line 12: expected ':' \u2013 Hint: Check function/class definitions and missing colons/indentation.",
+        "Fix PEP8 style issues using autopep8 or black.",
+        "PEP8: 1       E111 indentation is not a multiple of 4",
+        "PEP8: 1       E113 unexpected indentation",
+        "PEP8: 1       E203 whitespace before ','",
+        "PEP8: 1       E231 missing whitespace after ','",
+        "PEP8: 4       E302 expected 2 blank lines, found 1"
+    ],
+    "complexity": {
+        "cyclomatic_complexity": [
+            {
+                "name": "add_numbers",
+                "lineno": 3,
+                "complexity": 1
+            },
+            {
+                "name": "divide_numbers",
+                "lineno": 6,
+                "complexity": 2
+            },
+            {
+                "name": "complex_function",
+                "lineno": 12,
+                "complexity": 3
+            }
+        ],
+        "maintainability_index": 75.78117533694216
+    }
+}

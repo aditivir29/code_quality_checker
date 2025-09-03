@@ -1,0 +1,37 @@
+{
+    "file": "data\\sample.py",
+    "score": 8.0,
+    "pep8": {
+        "violations": 21,
+        "details": [
+            "1       E113 unexpected indentation",
+            "2       E225 missing whitespace around operator",
+            "9       E231 missing whitespace after ','",
+            "4       E302 expected 2 blank lines, found 1",
+            "1       E305 expected 2 blank lines after class or function definition, found 1",
+            "1       E401 multiple imports on one line",
+            "3       W291 trailing whitespace"
+        ]
+    },
+    "syntax": {
+        "errors": 1,
+        "details": [
+            {
+                "line": 10,
+                "msg": "expected ':'",
+                "hint": "Check if ':' or indentation is missing"
+            }
+        ]
+    },
+    "suggestions": [
+        "Line 10: expected ':' \u2013 Hint: Check if ':' or indentation is missing",
+        "PEP8: 1       E113 unexpected indentation",
+        "PEP8: 2       E225 missing whitespace around operator",
+        "PEP8: 9       E231 missing whitespace after ','",
+        "PEP8: 4       E302 expected 2 blank lines, found 1",
+        "PEP8: 1       E305 expected 2 blank lines after class or function definition, found 1",
+        "PEP8: 1       E401 multiple imports on one line",
+        "PEP8: 3       W291 trailing whitespace"
+    ],
+    "total_suggestions": 8
+}

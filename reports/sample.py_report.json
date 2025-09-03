@@ -1,0 +1,170 @@
+{
+    "file": "data/sample.py",
+    "score": 8.0,
+    "pep8": {
+        "violations": 21,
+        "details": [
+            {
+                "line": 3,
+                "col": 9,
+                "code": "E401",
+                "msg": "E401 multiple imports on one line"
+            },
+            {
+                "line": 5,
+                "col": 0,
+                "code": "E302",
+                "msg": "E302 expected 2 blank lines, found 1"
+            },
+            {
+                "line": 5,
+                "col": 17,
+                "code": "E231",
+                "msg": "E231 missing whitespace after ','"
+            },
+            {
+                "line": 6,
+                "col": 7,
+                "code": "E225",
+                "msg": "E225 missing whitespace around operator"
+            },
+            {
+                "line": 7,
+                "col": 19,
+                "code": "E231",
+                "msg": "E231 missing whitespace after ','"
+            },
+            {
+                "line": 10,
+                "col": 0,
+                "code": "E302",
+                "msg": "E302 expected 2 blank lines, found 1"
+            },
+            {
+                "line": 10,
+                "col": 22,
+                "code": "E231",
+                "msg": "E231 missing whitespace after ','"
+            },
+            {
+                "line": 11,
+                "col": 4,
+                "code": "E113",
+                "msg": "E113 unexpected indentation"
+            },
+            {
+                "line": 15,
+                "col": 0,
+                "code": "E302",
+                "msg": "E302 expected 2 blank lines, found 1"
+            },
+            {
+                "line": 17,
+                "col": 22,
+                "code": "E231",
+                "msg": "E231 missing whitespace after ','"
+            },
+            {
+                "line": 20,
+                "col": 0,
+                "code": "E302",
+                "msg": "E302 expected 2 blank lines, found 1"
+            },
+            {
+                "line": 20,
+                "col": 20,
+                "code": "E231",
+                "msg": "E231 missing whitespace after ','"
+            },
+            {
+                "line": 21,
+                "col": 8,
+                "code": "E225",
+                "msg": "E225 missing whitespace around operator"
+            },
+            {
+                "line": 27,
+                "col": 33,
+                "code": "W291",
+                "msg": "W291 trailing whitespace"
+            },
+            {
+                "line": 28,
+                "col": 20,
+                "code": "W291",
+                "msg": "W291 trailing whitespace"
+            },
+            {
+                "line": 28,
+                "col": 0,
+                "code": "E305",
+                "msg": "E305 expected 2 blank lines after class or function definition, found 1"
+            },
+            {
+                "line": 28,
+                "col": 17,
+                "code": "E231",
+                "msg": "E231 missing whitespace after ','"
+            },
+            {
+                "line": 29,
+                "col": 26,
+                "code": "W291",
+                "msg": "W291 trailing whitespace"
+            },
+            {
+                "line": 29,
+                "col": 23,
+                "code": "E231",
+                "msg": "E231 missing whitespace after ','"
+            },
+            {
+                "line": 30,
+                "col": 22,
+                "code": "E231",
+                "msg": "E231 missing whitespace after ','"
+            },
+            {
+                "line": 31,
+                "col": 20,
+                "code": "E231",
+                "msg": "E231 missing whitespace after ','"
+            }
+        ]
+    },
+    "syntax": {
+        "errors": 1,
+        "details": [
+            {
+                "line": 10,
+                "msg": "expected ':'",
+                "hint": "Check if ':' or indentation is missing"
+            }
+        ]
+    },
+    "suggestions": [
+        "Line 10: expected ':' \u2013 Hint: Check if ':' or indentation is missing",
+        "PEP8: {'line': 3, 'col': 9, 'code': 'E401', 'msg': 'E401 multiple imports on one line'}",
+        "PEP8: {'line': 5, 'col': 0, 'code': 'E302', 'msg': 'E302 expected 2 blank lines, found 1'}",
+        "PEP8: {'line': 5, 'col': 17, 'code': 'E231', 'msg': \"E231 missing whitespace after ','\"}",
+        "PEP8: {'line': 6, 'col': 7, 'code': 'E225', 'msg': 'E225 missing whitespace around operator'}",
+        "PEP8: {'line': 7, 'col': 19, 'code': 'E231', 'msg': \"E231 missing whitespace after ','\"}",
+        "PEP8: {'line': 10, 'col': 0, 'code': 'E302', 'msg': 'E302 expected 2 blank lines, found 1'}",
+        "PEP8: {'line': 10, 'col': 22, 'code': 'E231', 'msg': \"E231 missing whitespace after ','\"}",
+        "PEP8: {'line': 11, 'col': 4, 'code': 'E113', 'msg': 'E113 unexpected indentation'}",
+        "PEP8: {'line': 15, 'col': 0, 'code': 'E302', 'msg': 'E302 expected 2 blank lines, found 1'}",
+        "PEP8: {'line': 17, 'col': 22, 'code': 'E231', 'msg': \"E231 missing whitespace after ','\"}",
+        "PEP8: {'line': 20, 'col': 0, 'code': 'E302', 'msg': 'E302 expected 2 blank lines, found 1'}",
+        "PEP8: {'line': 20, 'col': 20, 'code': 'E231', 'msg': \"E231 missing whitespace after ','\"}",
+        "PEP8: {'line': 21, 'col': 8, 'code': 'E225', 'msg': 'E225 missing whitespace around operator'}",
+        "PEP8: {'line': 27, 'col': 33, 'code': 'W291', 'msg': 'W291 trailing whitespace'}",
+        "PEP8: {'line': 28, 'col': 20, 'code': 'W291', 'msg': 'W291 trailing whitespace'}",
+        "PEP8: {'line': 28, 'col': 0, 'code': 'E305', 'msg': 'E305 expected 2 blank lines after class or function definition, found 1'}",
+        "PEP8: {'line': 28, 'col': 17, 'code': 'E231', 'msg': \"E231 missing whitespace after ','\"}",
+        "PEP8: {'line': 29, 'col': 26, 'code': 'W291', 'msg': 'W291 trailing whitespace'}",
+        "PEP8: {'line': 29, 'col': 23, 'code': 'E231', 'msg': \"E231 missing whitespace after ','\"}",
+        "PEP8: {'line': 30, 'col': 22, 'code': 'E231', 'msg': \"E231 missing whitespace after ','\"}",
+        "PEP8: {'line': 31, 'col': 20, 'code': 'E231', 'msg': \"E231 missing whitespace after ','\"}"
+    ],
+    "total_suggestions": 22
+}
