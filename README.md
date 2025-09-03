@@ -31,6 +31,8 @@ Code_Quality_Checker/
 └─ README.md                     # Project description
 
 ## How to Run
-1. Open `Code_Quality_Check.ipynb` in Jupyter Notebook  
-2. Select a Python file from the `data/` folder  
-3. Run all cells to see analysis results and reports  
+1. Open `Code_Quality_Check.ipynb` in Jupyter Notebook
+2. Install requirements 
+3. Select a Python file from the `data/` folder  
+4. Run all cells to see analysis results and reports  
+
